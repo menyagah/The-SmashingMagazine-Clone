@@ -90,6 +90,7 @@ body,li,a{
     width: 50%;
     background-color: rgb(46, 33, 32);
     height: 700px;
+    border-top:  #FFF solid 3px;
     border-right: #FFF solid 3px;
 
 }
@@ -106,6 +107,7 @@ body,li,a{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top:  #FFF solid 3px;
     width: 50%;
     background-color: rgb(22, 6, 5);
     height: 700px;
