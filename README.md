@@ -2,7 +2,7 @@
 - This is a clone of the smashing magazine website, design layout or mock-up.
 - Below is a screenshot of the apple clone in action.
 
-![screenshot](img/screenshot.png)
+![screenshot](img/smashing.png)
 
 
 This was a solo project. The project uses basic html5 and css3. 
@@ -15,7 +15,7 @@ This was a solo project. The project uses basic html5 and css3.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/menyagah/The-NewYorkTimes-clone/ff9880a525e51a26e530624cfb4eb6d67d432402/index.html)
+[Live Demo Link](https://rawcdn.githack.com/menyagah/The-SmashingMagazine-Clone/1192c435e15d8223361c43eb36bcdf47d07933b1/index.html)
 
 
 ## Getting Started
