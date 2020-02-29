@@ -50,7 +50,6 @@ body {
 
 .nav_links {
   display: flex;
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 180px;
@@ -224,10 +223,6 @@ body {
   border-radius: 4px;
   letter-spacing: 1px;
   font-weight: 900;
-}
-
-.button_end {
-  padding: 40px;
 }
 
 .content_3-3 {
