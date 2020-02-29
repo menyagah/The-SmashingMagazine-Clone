@@ -136,7 +136,7 @@ body,li,a{
 }
 
 .float{
-    margin-top: -5190px;
+    margin-top: -6890px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -315,7 +315,6 @@ body,li,a{
     align-items: center;
     justify-content: space-around;
     height: 400px;
-    background-color: rgba(173, 173, 173, 0.829);
     border-top:  #FFF solid 3px;
 }
 
