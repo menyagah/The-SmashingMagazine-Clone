@@ -136,7 +136,7 @@ body,li,a{
 }
 
 .float{
-    margin-top: -4150px;
+    margin-top: -5190px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -252,7 +252,7 @@ body,li,a{
     height: 850px;
     margin-right: 40px;
     margin-left: 40px;
-    background-color: rgba(122, 185, 187, 0.829);
+    background-color: rgba(173, 173, 173, 0.829);
     border-radius: 19px;
     border-top:  #FFF solid 3px;
 }
@@ -301,6 +301,13 @@ body,li,a{
     border-bottom: rgb(0, 0, 0) solid 3px;
 }
 
-
+.more_about_book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    background-color: rgba(173, 173, 173, 0.829);
+}
 
 
