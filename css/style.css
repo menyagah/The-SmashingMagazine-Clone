@@ -61,8 +61,7 @@ body{
     line-height: 65px;
     font-size: 25px;
     border-right: #FFF solid 3px;
-    height: 100%;
-    
+    height: 100%;    
 }
 
 .nav_link{
@@ -73,8 +72,7 @@ body{
     padding-left: 25px;
     font-size: 22px;
     border: #FFF solid 3px;
-    border-radius: 9px;
-    
+    border-radius: 9px;    
 }
 
 .main{
@@ -92,7 +90,6 @@ body{
     height: 700px;
     border-top:  #FFF solid 3px;
     border-right: #FFF solid 3px;
-
 }
 
 .main_left-1{
@@ -104,7 +101,6 @@ body{
     height: 700px;
     border-top:  #FFF solid 3px;
     border-right: #FFF solid 3px;
-
 }
 
 .main_left_1{
@@ -360,7 +356,6 @@ body{
     padding-left: 30px;
 }
 
-
 .img-1{
     display: flex;
     justify-content: center;
@@ -425,7 +420,7 @@ body{
 .main_cont{
 display: flex;
 justify-content: flex-start;
-padding-left:24px ;
+padding-left: 24px ;
 }
 
 .main_left_2{
