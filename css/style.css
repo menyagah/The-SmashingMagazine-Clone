@@ -158,3 +158,21 @@ body,li,a{
 .content{
     display: flex;
 }
+
+.articles{
+    display: flex;
+    height: 650px;
+}
+
+.content_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: 27px;
+    line-height: 32px;
+    background-color: rgb(190, 190, 190);
+    border-top:  #FFF solid 3px;
+    border-right: #FFF solid 3px;
+}
