@@ -459,4 +459,18 @@ padding-left:24px ;
     font-size: 17px;
     transform: rotate(-20deg);
 }
-   
+
+.content_3-4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 670px;
+    padding: 30px;
+    font-size: 27px;
+    line-height: 32px;
+    background-color: rgb(110, 105, 105);
+    border-radius: 9px;
+    border-top:  #FFF solid 3px;
+    border-right: #FFF solid 3px;
+}
