@@ -80,6 +80,7 @@ body,li,a{
 
 .main{
     display: flex;
+    position: relative;
     height: 700px;
 }
 
@@ -136,7 +137,11 @@ body,li,a{
 }
 
 .float{
-    margin-top: -6890px;
+    margin-top: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -160,6 +165,7 @@ body,li,a{
 }
 
 .articles{
+    position: relative;
     display: flex;
     height: 650px;
 }
@@ -379,3 +385,78 @@ body,li,a{
     width: 480px;
     height: 180px;
 }
+
+.design_systems{
+    display: flex;
+    justify-content: space-around;
+    border-top:  #FFF solid 3px;
+    background-color: slategray;
+}
+
+.design{
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+}
+
+.btn-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 360px;
+    color: rgb(23, 85, 100);
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+    background-color: #f5f8fa;
+    padding: 10px 10px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-weight: 900;
+  }
+
+.button_end-1{
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px;
+}
+
+.main_cont{
+display: flex;
+justify-content: flex-start;
+padding-left:24px ;
+}
+
+.main_left_2{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-family: 'Fredoka One', serif;
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 53px;
+}
+
+.content_5{
+    display: flex;
+    padding: 30px;
+    font-size: 35px;
+    line-height: 32px;
+}
+
+.img-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: -40px;
+    background-color: rgb(90, 94, 94);
+    border-radius: 9px;
+    height: 240px;
+    width: 200px;
+    font-size: 17px;
+    transform: rotate(-20deg);
+}
+   
