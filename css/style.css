@@ -18,8 +18,22 @@ body,li,a{
     justify-content: center;
     align-items: center;
     height: 180px;
-    background-color: #D33C2C;
+    background-color: rgb(44, 24, 22);
     font-weight: 400;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    font-family: 'Fredoka One', serif;
+    color: white;
+    line-height: 65px;
+    font-size: 25px;
+    border-right: #FFF solid 3px;
+    height: 100%;
 }
 
 .logo_1{
@@ -32,16 +46,24 @@ body,li,a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 130px;
     width: 170px;
+    height: 100%;
     margin-right: 10px;
 }
 
 .nav_links{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
     font-family: 'Fredoka One', serif;
     color: white;
     line-height: 65px;
     font-size: 25px;
+    border-right: #FFF solid 3px;
+    height: 100%;
+    
 }
 
 .nav_link{
@@ -53,10 +75,57 @@ body,li,a{
     font-size: 22px;
     border: #FFF solid 3px;
     border-radius: 9px;
+    
 }
 
-.nav_links_2{
-    color: white;
-    font-family: 'Satisfy', serif;
-    font-size: 18px;
+.main{
+    display: flex;
+    height: 1500px;
 }
+
+.main_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(46, 33, 32);
+    height: 700px;
+    border-right: #FFF solid 3px;
+
+}
+
+.main_left_1{
+    color: white;
+    font-family: 'Fredoka One', serif;
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 53px;
+}
+
+.main_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(22, 6, 5);
+    height: 700px;
+}
+
+.float{
+    margin-top: -1400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_title{
+    background-color: white;
+    font-family: 'Fredoka One', serif;
+}
+
+.main_title_1{
+    background-color: white;
+    font-family: 'Fredoka One', serif;
+}
+
