@@ -80,7 +80,7 @@ body,li,a{
 
 .main{
     display: flex;
-    height: 1500px;
+    height: 700px;
 }
 
 .main_left{
@@ -89,6 +89,18 @@ body,li,a{
     align-items: center;
     width: 50%;
     background-color: rgb(46, 33, 32);
+    height: 700px;
+    border-top:  #FFF solid 3px;
+    border-right: #FFF solid 3px;
+
+}
+
+.main_left-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(27, 23, 22);
     height: 700px;
     border-top:  #FFF solid 3px;
     border-right: #FFF solid 3px;
@@ -113,8 +125,18 @@ body,li,a{
     height: 700px;
 }
 
+.main_right-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:  #FFF solid 3px;
+    width: 50%;
+    background-color: rgb(15, 3, 2);
+    height: 700px;
+}
+
 .float{
-    margin-top: -1400px;
+    margin-top: -1350px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -123,11 +145,16 @@ body,li,a{
 
 .main_title{
     background-color: white;
+    padding: 5px;
     font-family: 'Fredoka One', serif;
 }
 
 .main_title_1{
     background-color: white;
+    padding: 5px;
     font-family: 'Fredoka One', serif;
 }
 
+.content{
+    display: flex;
+}
