@@ -478,12 +478,12 @@ padding-left:24px ;
     background-color: rgb(103, 111, 119);
 }
 
-.footer_links{
+nav,ul,li,a{
     display: flex;
     justify-content: center;
     line-height: 60px;
     flex-wrap: wrap;
-    font-size: 25px; 
+    font-size: 25px;
 }
 
 .content_3-6{
