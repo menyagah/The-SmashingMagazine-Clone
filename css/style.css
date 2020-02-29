@@ -7,9 +7,8 @@ a {
   box-sizing: border-box;
 }
 
-body,li,a{
+body{
     text-decoration: none;
-    list-style: none;
     display: inline;
 }
 
@@ -473,4 +472,24 @@ padding-left:24px ;
     border-radius: 9px;
     border-top:  #FFF solid 3px;
     border-right: #FFF solid 3px;
+}
+
+.footer{
+    background-color: rgb(103, 111, 119);
+}
+
+.footer_links{
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+    flex-wrap: wrap;
+    font-size: 25px; 
+}
+
+.content_3-6{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 27px;
+    line-height: 32px;
 }
