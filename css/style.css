@@ -310,4 +310,35 @@ body,li,a{
     background-color: rgba(173, 173, 173, 0.829);
 }
 
+.person_of_the_week{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    background-color: rgba(173, 173, 173, 0.829);
+    border-top:  #FFF solid 3px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 94, 94);
+    border-radius: 9px;
+    height: 200px;
+    width: 200px;
+    font-size: 17px;
+    transform: rotate(-20deg);
+}
+
+.content_4-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 104, 104);
+    border-radius: 9px;
+    font-size: 20px;
+    width: 1000px;
+    height: 280px;
+}
 
