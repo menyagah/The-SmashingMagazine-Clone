@@ -113,7 +113,7 @@ body {
 .main_top,
 .main_below-1 {
   width: 50%;
-  background-color:rgb(33, 33, 33);
+  background-color: rgb(33, 33, 33);
   height: 700px;
   border-top: #fff solid 3px;
   border-right: #fff solid 3px;
@@ -189,7 +189,7 @@ body {
 .btn-1 {
   height: 40px;
   width: 200px;
-  color:rgb(33, 33, 33);
+  color: rgb(33, 33, 33);
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
@@ -219,7 +219,7 @@ body {
 .btn-2 {
   height: 40px;
   width: 360px;
-  color:rgb(33, 33, 33);
+  color: rgb(33, 33, 33);
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
@@ -377,7 +377,7 @@ body {
 }
 
 .footer {
-  background-color:rgb(90, 94, 94);
+  background-color: rgb(90, 94, 94);
   padding: 50px;
 }
 
