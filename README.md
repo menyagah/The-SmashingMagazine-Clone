@@ -1,6 +1,6 @@
 # The-SmashingMagazine-Clone
 - This is a clone of the smashing magazine website, design layout or mock-up.
-- Below is a screenshot of the apple clone in action.
+- Below is a screenshot of the smashing magazine mock-up in action.
 
 ![screenshot](img/smashing.png)
 
