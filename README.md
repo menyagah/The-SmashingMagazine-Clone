@@ -15,7 +15,7 @@ This was a solo project. The project uses basic html5 and css3.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/menyagah/The-SmashingMagazine-Clone/1192c435e15d8223361c43eb36bcdf47d07933b1/index.html)
+[Live Demo Link](https://rawcdn.githack.com/menyagah/The-SmashingMagazine-Clone/a65c076890bd5ae1d044407eff70b94afc179d47/index.html)
 
 
 ## Getting Started
