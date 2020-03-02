@@ -46,7 +46,7 @@ body {
 
 .header {
   height: 180px;
-  background-color: rgb(44, 24, 22);
+  background-color: rgb(33,33,33);
   font-weight: 400;
 }
 
@@ -113,7 +113,7 @@ body {
 .main_top,
 .main_below-1 {
   width: 50%;
-  background-color: rgb(27, 23, 22);
+  background-color: rgb(33,33,33);
   height: 700px;
   border-top: #fff solid 3px;
   border-right: #fff solid 3px;
@@ -159,9 +159,10 @@ body {
   padding: 30px;
   font-size: 27px;
   line-height: 32px;
-  background-color: rgb(245, 239, 239);
+  background-color: rgb(174, 177, 177);
   border-top: #fff solid 3px;
   border-right: #fff solid 3px;
+  border-left: #fff solid 3px;
 }
 
 .content_2,
@@ -180,14 +181,15 @@ body {
 }
 
 .content_3-2 {
-  background-color: rgb(110, 105, 105);
+  border-top: #fff solid 3px;
+  background-color: rgb(90, 94, 94);
   border-radius: 9px;
 }
 
 .btn-1 {
   height: 40px;
   width: 200px;
-  color: rgb(23, 85, 100);
+  color: rgb(33,33,33);
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
@@ -203,7 +205,7 @@ body {
   height: 850px;
   margin-right: 40px;
   margin-left: 40px;
-  background-color: rgba(173, 173, 173, 0.829);
+  background-color: rgb(90, 94, 94);
   border-radius: 19px;
   border-top: #fff solid 3px;
 }
@@ -217,7 +219,7 @@ body {
 .btn-2 {
   height: 40px;
   width: 360px;
-  color: rgb(23, 85, 100);
+  color: rgb(33,33,33);
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
@@ -246,7 +248,7 @@ body {
 
 .more_about_book {
   height: 850px;
-  background-color: rgba(173, 173, 173, 0.829);
+  background-color: rgb(90, 94, 94);
 }
 
 .person_of_the_week {
@@ -304,7 +306,7 @@ body {
 .design_systems {
   justify-content: space-around;
   border-top: #fff solid 3px;
-  background-color: slategray;
+  background-color: rgb(121, 124, 124);
 }
 
 .design {
@@ -315,7 +317,7 @@ body {
 .btn-3 {
   height: 40px;
   width: 360px;
-  color: rgb(23, 85, 100);
+  color: rgb(55, 56, 56);
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
@@ -368,14 +370,14 @@ body {
   padding: 30px;
   font-size: 27px;
   line-height: 32px;
-  background-color: rgb(110, 105, 105);
+  background-color:  rgb(90, 94, 94);
   border-radius: 9px;
   border-top: #fff solid 3px;
   border-right: #fff solid 3px;
 }
 
 .footer {
-  background-color: rgb(103, 111, 119);
+  background-color:  rgb(90, 94, 94);
   padding: 50px;
 }
 
