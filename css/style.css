@@ -147,6 +147,7 @@ body {
 .suppoters_section {
   height: 650px;
 }
+
 .articles {
   position: relative;
   height: 650px;
@@ -326,7 +327,9 @@ body {
   font-weight: 900;
 }
 
-.button_end-1, .main_cont, .main_left_2 {
+.button_end-1,
+.main_cont,
+.main_left_2 {
   justify-content: flex-start;
   padding: 40px;
 }
