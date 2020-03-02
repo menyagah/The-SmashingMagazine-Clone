@@ -12,19 +12,45 @@ body {
   display: inline;
 }
 
-.header {
+.header,
+.logo,
+.nav_container,
+.nav_links,
+.float,
+.content_2,
+.content_3-1,
+.content_3-2,
+.btn-1,
+.main_top,
+.main_below-1,
+.content_3-3,
+.upcoming_episodes,
+.btn-2,
+.button_end,
+.latest_articles,
+.more_about_book,
+.person_of_the_week,
+.img,
+.content_4-1,
+.avatar,
+.img-1,
+.content_4-2,
+.btn-3,
+.img-2,
+.content_3-6,
+.content_3-4 {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.header {
   height: 180px;
   background-color: rgb(44, 24, 22);
   font-weight: 400;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 180px;
   font-family: "Fredoka One", serif;
   color: white;
@@ -39,9 +65,6 @@ body {
 }
 
 .nav_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   width: 170px;
   height: 100%;
@@ -49,9 +72,6 @@ body {
 }
 
 .nav_links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 180px;
   font-family: "Fredoka One", serif;
   color: white;
@@ -72,27 +92,26 @@ body {
   border-radius: 9px;
 }
 
+.main,
+.content,
+.articles,
+.suppoters_section,
+.cover,
+.design_systems,
+.design,
+.button_end-1,
+.main_cont,
+.main_left_2,
+.content_5 {
+  display: flex;
+}
+
 .main {
-  display: flex;
   position: relative;
-  height: 700px;
 }
 
-.main_left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  background-color: rgb(46, 33, 32);
-  height: 700px;
-  border-top: #fff solid 3px;
-  border-right: #fff solid 3px;
-}
-
-.main_left-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.main_top,
+.main_below-1 {
   width: 50%;
   background-color: rgb(27, 23, 22);
   height: 700px;
@@ -108,64 +127,34 @@ body {
   line-height: 53px;
 }
 
-.main_right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: #fff solid 3px;
-  width: 50%;
-  background-color: rgb(22, 6, 5);
-  height: 700px;
-}
-
-.main_right-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: #fff solid 3px;
-  width: 50%;
-  background-color: rgb(15, 3, 2);
-  height: 700px;
-}
-
 .float {
   margin-top: 0;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: 30px;
-  display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
 
-.main_title {
-  background-color: white;
-  padding: 5px;
-  font-family: "Fredoka One", serif;
-}
-
+.main_title,
 .main_title_1 {
   background-color: white;
   padding: 5px;
   font-family: "Fredoka One", serif;
 }
 
-.content {
-  display: flex;
+.articles,
+.suppoters_section {
+  height: 650px;
 }
-
 .articles {
   position: relative;
-  display: flex;
   height: 650px;
 }
 
-.content_2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.content_2,
+.content_3-1,
+.content_3-3 {
   padding: 30px;
   font-size: 27px;
   line-height: 32px;
@@ -174,43 +163,27 @@ body {
   border-right: #fff solid 3px;
 }
 
-.suppoters_section {
-  display: flex;
-  height: 650px;
+.content_2,
+.content_3-2,
+.content_3-3,
+.upcoming_episodes,
+.more_about_book,
+.content_3-4 {
+  flex-direction: column;
 }
 
-.content_3-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.content_3-1,
+.content_3-2,
+.content_3-3 {
   width: 550px;
-  padding: 10px;
-  font-size: 27px;
-  line-height: 32px;
-  background-color: rgb(245, 239, 239);
-  border-top: #fff solid 3px;
-  border-right: #fff solid 3px;
 }
 
 .content_3-2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 550px;
-  padding: 30px;
-  font-size: 27px;
-  line-height: 32px;
   background-color: rgb(110, 105, 105);
   border-radius: 9px;
-  border-top: #fff solid 3px;
-  border-right: #fff solid 3px;
 }
 
 .btn-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 40px;
   width: 200px;
   color: rgb(23, 85, 100);
@@ -225,23 +198,7 @@ body {
   font-weight: 900;
 }
 
-.content_3-3 {
-  display: flex;
-  justify-content: center;
-  width: 550px;
-  padding: 30px;
-  font-size: 27px;
-  line-height: 32px;
-  background-color: rgb(245, 239, 239);
-  border-top: #fff solid 3px;
-  border-right: #fff solid 3px;
-}
-
 .upcoming_episodes {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 850px;
   margin-right: 40px;
   margin-left: 40px;
@@ -257,9 +214,6 @@ body {
 }
 
 .btn-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 40px;
   width: 360px;
   color: rgb(23, 85, 100);
@@ -275,16 +229,11 @@ body {
 }
 
 .button_end {
-  display: flex;
-  justify-content: center;
   padding: 40px;
 }
 
 .latest_articles {
-  display: flex;
   height: 200px;
-  justify-content: center;
-  align-items: center;
 }
 
 .latest {
@@ -295,26 +244,17 @@ body {
 }
 
 .more_about_book {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 850px;
   background-color: rgba(173, 173, 173, 0.829);
 }
 
 .person_of_the_week {
-  display: flex;
-  align-items: center;
   justify-content: space-around;
   height: 400px;
   border-top: #fff solid 3px;
 }
 
 .img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(90, 94, 94);
   border-radius: 9px;
   height: 200px;
@@ -324,9 +264,6 @@ body {
 }
 
 .content_4-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(100, 104, 104);
   border-radius: 9px;
   font-size: 20px;
@@ -335,13 +272,10 @@ body {
 }
 
 .avatar {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .cover {
-  display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
   padding-right: 30px;
@@ -349,9 +283,6 @@ body {
 }
 
 .img-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-right: 30px;
   background-color: rgb(90, 94, 94);
   border-radius: 9px;
@@ -362,9 +293,6 @@ body {
 }
 
 .content_4-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(100, 104, 104);
   border-radius: 9px;
   font-size: 20px;
@@ -373,22 +301,17 @@ body {
 }
 
 .design_systems {
-  display: flex;
   justify-content: space-around;
   border-top: #fff solid 3px;
   background-color: slategray;
 }
 
 .design {
-  display: flex;
   padding-top: 40px;
   flex-direction: column;
 }
 
 .btn-3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 40px;
   width: 360px;
   color: rgb(23, 85, 100);
@@ -403,21 +326,16 @@ body {
   font-weight: 900;
 }
 
-.button_end-1 {
-  display: flex;
+.button_end-1, .main_cont, .main_left_2 {
   justify-content: flex-start;
   padding: 40px;
 }
 
 .main_cont {
-  display: flex;
-  justify-content: flex-start;
   padding-left: 24px;
 }
 
 .main_left_2 {
-  display: flex;
-  justify-content: flex-start;
   color: white;
   font-family: "Fredoka One", serif;
   font-weight: 100;
@@ -426,16 +344,12 @@ body {
 }
 
 .content_5 {
-  display: flex;
   padding: 30px;
   font-size: 35px;
   line-height: 32px;
 }
 
 .img-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-right: 30px;
   margin-top: -40px;
   background-color: rgb(90, 94, 94);
@@ -447,10 +361,6 @@ body {
 }
 
 .content_3-4 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   width: 670px;
   padding: 30px;
   font-size: 27px;
@@ -463,6 +373,7 @@ body {
 
 .footer {
   background-color: rgb(103, 111, 119);
+  padding: 50px;
 }
 
 nav,
@@ -471,15 +382,13 @@ li,
 a {
   display: flex;
   justify-content: center;
-  line-height: 60px;
+  line-height: 40px;
   flex-wrap: wrap;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .content_3-6 {
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-  font-size: 27px;
+  padding: 10px;
+  font-size: 16px;
   line-height: 32px;
 }
